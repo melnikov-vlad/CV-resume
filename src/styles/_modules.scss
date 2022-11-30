@@ -1,0 +1,136 @@
+.section_foto {
+            
+
+        .hero_foto {
+            width: 100%;
+            max-width: 300px;
+            max-height: 300px;
+            object-fit: cover;
+            padding: 10px;
+            border-radius: 50%;
+
+}
+}
+
+h3 {
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+    color: cadetblue;
+
+}
+
+.section_contact {
+
+
+        .contact_adress {
+            padding-bottom: 5px;
+        }
+
+        .contact_list {
+            padding-bottom: 10px;
+
+                .contact_link {
+                    padding-bottom: 5px;
+                }
+
+                a {
+                    font-style: italic;
+                }
+        }
+}
+
+.section_skill_soft, .section_skill_hard, .section_hobby{
+    padding-bottom: 10px;
+
+        li {
+            padding-bottom: 5px;
+        }
+}
+
+.intro_text {
+    padding-top: 50px;
+    font-size: 35px;
+
+        h1 {
+            padding-bottom: 15px;
+        }
+
+        h2 {
+            font-size: 30px;
+            padding-bottom: 45px;
+        }
+}
+
+.technologies {
+    padding-bottom: 15px;
+
+        .technologies_list {
+            display: flex;
+            justify-content: flex-start;
+
+                li {
+                    margin-right: 30px;
+                    text-transform: uppercase;
+                }
+        }
+}
+
+.projects {
+    padding-bottom: 15px;
+
+        .projects_item {
+            padding-bottom: 5px;
+
+                a {
+                    font-style: italic;
+                }
+        }
+}
+
+.work_experience {
+    padding-bottom: 10px;
+
+        .work_item {
+            padding-bottom: 15px;
+            list-style: square;
+
+                .work_job {
+                    padding-bottom: 5px;
+            
+
+                .work_doing {
+                    font-family: monospace;
+                }
+        }
+
+                .work_time {
+                    font-style: italic;
+                    padding-left: 10px;
+                    padding-bottom: 5px;
+                }
+
+                .work_respons {
+                    padding-left: 20px;
+                    padding-bottom: 5px;
+                }
+
+                .work_respons_alt {
+                    padding-left: 30px;     
+                    font-family: monospace;  
+                }
+                }
+        
+}
+
+.education {
+
+
+        .education_item {
+            font-style: oblique;
+
+                .education_item_alt {
+                    font-weight: bold;
+                }
+        }
+}

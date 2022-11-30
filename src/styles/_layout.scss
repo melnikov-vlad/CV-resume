@@ -1,0 +1,30 @@
+.main_wrapper {
+    width: 100%;
+    height: 100vh;
+}
+
+.all_wrapper {
+    width: 100%;
+    // height: 100%;
+    background-image: url(../images/whit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.sidebar {
+    width: 50%;
+    padding-left: 36px;
+    padding-right: 10px;
+    background-color: #000000b8;
+    color: #f0fff0d4;   
+        
+}
+
+.main_section {
+    padding-left: 40px;
+    background-color: #00000014;
+}
