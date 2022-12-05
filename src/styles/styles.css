@@ -62,6 +62,7 @@ img {
   background-position: center;
   display: flex;
   flex-direction: row-reverse;
+  font-family: "Verdana", sans-serif;
 }
 
 .sidebar {
@@ -159,7 +160,7 @@ h3 {
   padding-bottom: 5px;
 }
 .work_experience .work_item .work_job .work_doing {
-  font-family: monospace;
+  font-weight: normal;
 }
 .work_experience .work_item .work_time {
   font-style: italic;
@@ -172,11 +173,14 @@ h3 {
 }
 .work_experience .work_item .work_respons_alt {
   padding-left: 30px;
-  font-family: monospace;
 }
 
+.education {
+  margin-bottom: 50px;
+}
 .education .education_item {
   font-style: oblique;
+  padding-bottom: 5px;
 }
 .education .education_item .education_item_alt {
   font-weight: bold;

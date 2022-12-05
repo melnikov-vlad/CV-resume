@@ -100,7 +100,8 @@ h3 {
             
 
                 .work_doing {
-                    font-family: monospace;
+                    font-weight: normal;
+
                 }
         }
 
@@ -117,20 +118,22 @@ h3 {
 
                 .work_respons_alt {
                     padding-left: 30px;     
-                    font-family: monospace;  
+                    // font-family: monospace;  
                 }
                 }
         
 }
 
 .education {
-
+    margin-bottom: 50px;
 
         .education_item {
             font-style: oblique;
+            padding-bottom: 5px;
 
                 .education_item_alt {
                     font-weight: bold;
+                    
                 }
         }
 }
